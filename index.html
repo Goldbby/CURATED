@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURATED</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <nav class="site-nav">
+            <div class="wrap">
+                <a href="#top" class="logo">CURATED</a>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#top" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="hero" id="top">
+            <div class="wrap">
+                <h1 class="hero-title">CURATED</h1>
+                <p class="hero-subtitle">A curated collection of beautiful images.</p>
+                <a href="#gallery" class="btn btn-primary">View Gallery</a>
+            </div>
+            <div class="hero-image">
+                <img src="sun set.png" alt="Hero Image">
+            </div>
+        </section>
+
+        <div class="filter-bar" id="filter-bar">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="architecture">Architecture</button>
+            <button class="filter-btn" data-filter="people">People</button>
+        </div>
+
+        <section class="gallery" id="gallery">
+            <div class="wrap">
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="nature">
+                        <img src="nature1.png" alt="Nature 1">
+                    </div>
+                    <div class="gallery-item" data-category="architecture">
+                        <img src="architecture1.png" alt="Architecture 1">
+                    </div>
+                    <div class="gallery-item" data-category="people">
+                        <img src="people.png" alt="People 1">
+                    </div>
+                    <div class="gallery-item" data-category="nature">
+                        <img src="nature2.png" alt="Nature 2">
+                    </div>
+                    <div class="gallery-item" data-category="architecture">
+                        <img src="architecture2.png" alt="Architecture 2">
+                    </div>
+                    <div class="gallery-item" data-category="people">
+                        <img src="people2.png" alt="People 2">
+                    </div>
+                    <div class="gallery-item" data-category="nature">
+                        <img src="nature3.png" alt="Nature 3">
+                    </div>
+                    <div class="gallery-item" data-category="architecture">
+                        <img src="architecture3.png" alt="Architecture 3"> 
+                    </div>
+                    <div class="gallery-item" data-category="people">
+                        <img src="people3.png" alt="People 3">
+                    </div>
+                    <div class="gallery-item" data-category="nature">
+                        <img src="nature4.png" alt="Nature 4">
+                    </div>
+                    <div class="gallery-item" data-category="people">
+                        <img src="people4.png" alt="People 4">
+                    </div>
+                    <div class="gallery-item" data-category="people">
+                        <img src="people.png" alt="People">
+                    </div>
+                    <div class ="gallery-item" data-category="people">
+                        <img src="people5.png" alt="People 5">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
